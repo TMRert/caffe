@@ -172,7 +172,7 @@ endif
 LIBRARIES += glog gflags protobuf leveldb snappy \
 	lmdb boost_system hdf5_hl hdf5 \
 	opencv_core opencv_highgui opencv_imgproc
-PYTHON_LIBRARIES := boost_python-py35 python3.6m
+PYTHON_LIBRARIES := boost_python3 python3.6m
 
 
 WARNINGS := -Wall -Wno-sign-compare
